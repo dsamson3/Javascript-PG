@@ -1,5 +1,5 @@
 const inputData = process.argv.slice(2).join('');
-const settings = require('./settings')
+const settings = require('./settings');
 
 const knex = require('knex')({
     client: 'pg',
